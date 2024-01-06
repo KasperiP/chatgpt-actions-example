@@ -1,0 +1,74 @@
+openapi: 3.0.0
+info:
+    title: ChatGPT Actions Example API
+    version: 1.0.0
+paths:
+    /api/get-test:
+        get:
+            operationId: get-test
+            x-openai-isConsequential: false
+            summary: Example GET endpoint
+            description: This endpoint returns a simple greeting message.
+            responses:
+                '200':
+                    description: Successful response
+                    content:
+                        application/json:
+                            schema:
+                                type: object
+                                properties:
+                                    message:
+                                        type: string
+                '405':
+                    description: Method not allowed
+                    content:
+                        application/json:
+                            schema:
+                                type: object
+                                properties:
+                                    message:
+                                        type: string
+
+    /api/post-test:
+        post:
+            operationId: post-test
+            x-openai-isConsequential: false
+            summary: Example POST endpoint
+            description: This endpoint takes a chatGPT prompt input and returns it back to the user.
+            requestBody:
+                required: true
+                content:
+                    application/json:
+                        schema:
+                            type: object
+                            properties:
+                                prompt:
+                                    type: string
+            responses:
+                '200':
+                    description: Successful response
+                    content:
+                        application/json:
+                            schema:
+                                type: object
+                                properties:
+                                    message:
+                                        type: string
+                '400':
+                    description: Bad request
+                    content:
+                        application/json:
+                            schema:
+                                type: object
+                                properties:
+                                    message:
+                                        type: string
+                '405':
+                    description: Method not allowed
+                    content:
+                        application/json:
+                            schema:
+                                type: object
+                                properties:
+                                    message:
+                                        type: string

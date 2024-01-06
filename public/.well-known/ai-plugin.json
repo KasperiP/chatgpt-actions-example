@@ -1,0 +1,18 @@
+{
+	"schema_version": "v1",
+	"name_for_model": "Example API",
+	"name_for_human": "Example API",
+	"description_for_model": "This is an example API for testing chatgpt plugins & actions. API has 2 endpoints, one GET and one POST.",
+	"description_for_human": "This is an example API for testing chatgpt plugins & actions. API has 2 endpoints, one GET and one POST.",
+	"auth": {
+		"type": "none"
+	},
+	"api": {
+		"type": "openapi",
+		"url": "https://chatgpt-actions-example.vercel.app/.well-known/openapi.yaml",
+		"has_user_authentication": false
+	},
+	"logo_url": "https://chatgpt-actions-example.vercel.app/.well-known/logo.png",
+	"contact_email": "hello@contact.com",
+	"legal_info_url": "https://chatgpt-actions-example.vercel.app/privacy-policy"
+}
