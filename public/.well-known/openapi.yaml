@@ -2,8 +2,13 @@ openapi: 3.0.0
 info:
     title: ChatGPT Actions Example API
     version: 1.0.0
+
+servers:
+    - url: https://chatgpt-actions-example.vercel.app/api
+      description: Cynix API Server
+
 paths:
-    /api/get-test:
+    /get-test:
         get:
             operationId: get-test
             x-openai-isConsequential: false
@@ -29,7 +34,7 @@ paths:
                                     message:
                                         type: string
 
-    /api/post-test:
+    /post-test:
         post:
             operationId: post-test
             x-openai-isConsequential: false
