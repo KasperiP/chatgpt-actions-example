@@ -21,3 +21,13 @@ Minimal template repository for making your own REST APIs for chatgpt plugins or
 
 3) Deploy to vercel:
 `vercel deploy`
+
+## Example GPT integration images:
+
+### Test example integration:
+Click [here](https://chat.openai.com/g/g-h6MedbsaF-actionsexamplegpt) to test example GPT!
+
+![example1](https://github.com/KasperiP/chatgpt-actions-example/assets/26027985/c406cb8f-47c0-4c08-9817-d5fa4fdfa517)
+![example2](https://github.com/KasperiP/chatgpt-actions-example/assets/26027985/c158f280-4b4c-4557-aec4-7d91daa04783)
+
+
