@@ -4,10 +4,6 @@
 	"description": "",
 	"main": "index.js",
 	"license": "MIT",
-	"scripts": {
-		"dev": "vercel dev",
-		"deploy": "vercel deploy"
-	},
 	"keywords": [
 		"vercel",
 		"chatgpt",
