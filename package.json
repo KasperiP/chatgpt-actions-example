@@ -1,0 +1,30 @@
+{
+	"name": "chatgpt-actions-example",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vercel dev",
+		"deploy": "vercel deploy"
+	},
+	"keywords": [
+		"vercel",
+		"chatgpt",
+		"chatgpt-actions"
+	],
+	"author": {
+		"email": "contact@kasperipohtinen.fi",
+		"name": "Kasperi Pohtinen",
+		"url": "https://kasperipohtinen.fi"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KasperiP/chatgpt-actions-example"
+	},
+	"devDependencies": {
+		"@types/node": "^20.10.6",
+		"@vercel/node": "^3.0.15",
+		"typescript": "^5.3.3"
+	}
+}
